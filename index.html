@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+
+    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+   <div class="mainContainer">
+    <div class="container">
+        <h1>Contact Us</h1>
+        <form action="" novalidate>
+
+            <div class="row">
+                <div class="firstnameDiv">
+                    <label for="">First Name</label>
+                    <input class="myinput" type="text">
+                </div>
+
+                <div class="lastnameDiv">
+                    <label for="">Last Name</label>
+                    <input class="myinput" type="text">
+                </div>
+            </div>
+
+
+           <div class="emailDiv">
+                <label for="">Email Address</label>
+                <input class="emailInput" type="email">
+           </div>
+
+
+          <div class="row3">
+                <label class="querytext" for="">Query Type</label>
+                <div class="queryType">
+                    <div class="generalEnquiry">
+                        <input type="radio" name="" id="">
+                        General Enquiry
+                    </div>
+                    <div class="generalEnquiry">
+                        <input type="radio" name="" id="">
+                        Support Request
+                    </div>
+                </div>
+          </div>
+
+          <div class="messageDiv">
+            <label class="message" for="">Message</label>
+            <input class="messageInput" type="text">
+          </div>
+
+          <div class="consentDiv">
+            <input type="checkbox" name="" id="">
+            <p>I hereby consent to being contacted by the team</p>
+          </div>
+
+          <input id="submit" type="submit">
+        </form>
+
+        <div class="alert">
+            <div class="messageSent">
+                <input type="checkbox" name="" id="">
+                <p class="messageP">Message Sent!</p>
+            </div>
+            <p class="response">Thanks for completing the form. we will be in touch soon!</p>
+        </div>
+   </div>
+   </div>
+
+</body>
+</html>

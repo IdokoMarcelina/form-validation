@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.mainContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    background-color: aliceblue;
+}
+
+h1{
+    padding-bottom: 20px;
+}
+
+label{
+    display: block;
+    
+}
+
+.emailInput{
+    border: 1px solid black;
+    border-radius: 7px;
+    width: 643px;
+    padding: 5px;
+    height: 30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: transparent;
+}
+
+.myinput{
+    border: 1px solid black;
+    border-radius: 7px;
+    width: 300px;
+    padding: 5px;
+    height: 30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: transparent;
+}
+
+.row{
+    display: flex;
+    gap: 2rem;
+}
+
+.generalEnquiry{
+    border: 1px solid black;
+    border-radius: 7px;
+    width: 300px;
+    height: 30px;
+    padding: 7px;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.queryType{
+    display: flex;
+    gap:  20px;
+}
+
+.querytext{
+    margin-top: 5px;
+    margin-bottom: 15px;
+}
+
+.message{
+    margin-top: 15px;
+}
+
+.messageInput{
+    border: 1px solid black;
+    border-radius: 7px;
+    width: 643px;
+    padding: 5px;
+    height: 80px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: transparent;
+}
+
+.consentDiv{
+    margin-top: 10px;
+    display: flex;
+    gap: 2rem;
+}
+
+#submit{
+    width: 650px;
+    height: 40px;
+    border-radius: 8px;
+    border: 1px solid green;
+    background-color: green;
+    color: white;
+    margin-top: 20px;
+}
+
+.alert{
+    background-color: rgb(30, 60, 30);
+    height: 60px;
+    width: 400px;
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    position: absolute;
+    top: 20px;
+    left: 15rem;
+    
+}
+
+.messageSent{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 10px;
+    
+}
+
+/* .alert div input{
+    border-radius: 50%;
+    background-color: none;
+    transform: scale(1.5);
+} */
+
